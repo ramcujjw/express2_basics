@@ -1,0 +1,22 @@
+*{
+    margin: 10px;
+}
+body{
+    background-color:  rgb(191, 224, 157);
+
+}
+
+.card-body{
+    background: linear-gradient(to left, rgb(146, 226, 189),white);
+}
+.card-title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    color: blue;
+    
+}
+.card-text{
+    text-align: justify;
+    padding: 5px;
+}
