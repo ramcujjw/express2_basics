@@ -12,24 +12,24 @@
 <body>
 <!-- 3 nav bar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">First App</a>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- 4 giving for loop -->
-             <%for(i=0;i<nav.length;i++){%>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="<%=nav[i].link%>"><%=nav[i].name%></a>
-          </li>
-          <%}%>
-        </ul>
-      
-      </div>
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">First App</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- 4 giving for loop -->
+           <%for(i=0;i<nav.length;i++){%>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="<%=nav[i].link%>"><%=nav[i].name%></a>
+        </li>
+        <%}%>
+      </ul>
+    
     </div>
-  </nav>
+  </div>
+</nav>
 
     <!-- 2 form creation -->
     <form>
